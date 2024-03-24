@@ -8,6 +8,33 @@ Discover [Anywhere Time](https://rubygems.org/gems/anywhere_time): Instantly acc
   AnywhereTime.current_time 
   # => "10:25:07 AM"
 ```
+```ruby
+  AnywhereTime.timezones
+#  => ["Africa/Abidjan",
+#  "Africa/Algiers",
+#  "Africa/Bissau",
+#  "Africa/Cairo",
+#  "Africa/Casablanca",
+#  "Africa/Ceuta"...]
+```
+```ruby
+ AnywhereTime.timezones(search: "America")
+#  => ["America/Adak",
+#  "America/Anchorage",
+#  "America/Araguaina",
+#  "America/Argentina/Buenos_Aires",
+#  "America/Argentina/Catamarca",
+#  "America/Argentina/Cordoba"...]
+```
+
+```ruby
+AnywhereTime.get_area_time("Asia/Kolkata")
+# => "10:33:18 AM"
+```
+```ruby
+AnywhereTime.get_ip_address
+# => "110.237.116.293"
+```
 
 [rubygems_badge]: https://img.shields.io/gem/v/anywhere_time.svg
 [rubygems]: https://rubygems.org/gems/anywhere_time

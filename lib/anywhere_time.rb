@@ -23,7 +23,7 @@ class AnywhereTime
     response = Net::HTTP.get_response(URI(API_URL))
     body = JSON.parse(response.body)
     if search
-      body.filter {|item| item.include?(search.capitalize)}
+      body.filter {|item| item.include?(search)}
     else
       body
     end
