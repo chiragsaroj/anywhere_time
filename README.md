@@ -6,7 +6,6 @@ Discover [Anywhere Time](https://rubygems.org/gems/anywhere_time): Instantly acc
 ## Features
 - Instantly retrieve current time information for any location worldwide.
 - Effortlessly manage time across diverse time zones with precision and ease.
-- Simplify global coordination and scheduling tasks.
 - Customizable search functionality for filtering time zones based on specific criteria.
 
 ```ruby
